@@ -1,4 +1,4 @@
-Disclamer
+Notes
 ----------
 This project contains a lot of texts and pictures that aren't mine. I just took them from the internet. All the sources are in the Documentation + References file.
 
