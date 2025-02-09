@@ -6,7 +6,7 @@ This project may be ugly but I hope it can be useful in one way or another.
 
 File Description
 ---
-Code: contains the code for this project (html, css, js, also includes assets (images I used for this project)
+Code: contains the code for this project (html, css, js, also includes assets (images I used for this project))
 
 Documentation + References: contains the documentation of this project and also the source of the various texts and images in this project
 
