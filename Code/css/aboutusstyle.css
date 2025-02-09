@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerbox{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+}
+
+.headerbox .headertext{
+    color:#FF0000;
+    position: fixed;
+    font-family: 'Jim Nightshade';
+    font-size: 45px;
+    top: 15px;
+    padding-left: 25px;
+    margin-top: 0px;
+    text-shadow: 1px 0px black;
+    text-decoration: none;
+}
+
+.headerbox .headerhomelink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 525px;
+    position: fixed;
+}
+
+.headerbox .headerproductslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 410px;
+    position: fixed;
+}
+
+.headerbox .headerrecipeslink{
+    color: black;    
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 300px;
+    position: fixed;
+}
+
+.headerbox .headeraboutuslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 175px;
+    position: fixed;
+}
+
+.headerbox .headercontactuslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 40px;
+    position: fixed;
+}
+
+.aboutustextbox{
+    color:#FF0000;
+    position: absolute;
+    top: 110px;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.imagebox .presentation{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 0;
+}
+
+.imagebox .girleating{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    right: 0;
+}
+
+.textbox{
+    color:#FF0000;
+    position: absolute;
+    top: 575px;
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+}
+
+.history{
+    width: 100%;
+    position: absolute;
+    height: 355px;
+    top: 700px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    background-color: #FF2E00;
+}
+
+.history .historytext{
+    width: 70%;
+    display: flex;
+    position: absolute;
+    left: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    color: white;
+    font-size: 30px;
+    top: 40px;
+}
+
+.history .historyimagebox{
+    width: 28.5%;
+    position: absolute;
+    display: flex;
+    height: 300px;
+    right: 0;
+}
+
+.history .historyimagebox .firstcornflakes{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+}
+
+.textbox2{
+    color:#FF0000;
+    position: absolute;
+    top: 1075px;
+    font-size: 45px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textbox2 .text{
+    width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+.textbox2 .things{
+    position: absolute;
+    display: flex;
+    top: 130px;
+    width: 80%;
+    height: auto;
+}
+
+.footerbox{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    top: 1975px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    margin-bottom: 0px;
+}
+
+.footerbox .footertext{
+    color:#FF0000;
+    position: absolute;
+    font-family: 'Jim Nightshade';
+    font-size: 25px;
+    top: 8px;
+    padding-left: 30px;
+    margin-top: 0px;
+    text-shadow: 1px 0px black;
+}
+
+.footerbox .copyright{
+    position: absolute;
+    font-size: 15px;
+    top: 20px;
+    right: 35px;
+}

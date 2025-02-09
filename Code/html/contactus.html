@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Jim Nightshade' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Kaisei Opti' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/contactusstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="headerbox">
+        <a href="home.html" class="headertext">VKellogg's</a>
+        <a href="home.html" class="headerhomelink">Home</a>
+        <a href="products.html" class="headerproductslink">Products</a>
+        <a href="recipes.html" class="headerrecipeslink">Recipes</a>
+        <a href="aboutus.html" class="headeraboutuslink">About Us</a>
+        <a href="contactus.html" class="headercontactuslink">Contact Us</a>
+    </div>
+    <div class="headerback"></div>
+
+
+    <div class="contactustextbox">
+        <p>CONTACT US</p>
+    </div>
+
+    <div class="box">
+        <form method="get" onsubmit="return checkForm()">
+        <p class="guidetext">First name</p>
+        <input class="inputbox" type="text" placeholder="Enter your first name" id="firstname">
+        <p class="guidetext">Last name</p>
+        <input class="inputbox" type="text" placeholder="Enter your last name" id="lastname">
+        <p class="guidetext">Email adress</p>
+        <input class="inputbox" type="text" placeholder="Enter your email adress" id="email">
+        <p class="guidetext">Phone number</p>
+        <input class="inputbox" type="text" placeholder="Enter your phone number" id="phonenumber">
+        <p class="guidetext">Nature of inquiry</p>
+        <select id="natureofinquiry" class="dropdownlist">
+            <option value="select">--Select--</option>
+            <option value="question">Question</option>
+            <option value="complain">Complain</option>
+            <option value="suggestion">Suggestion</option>
+            <option value="other">Other</option>          
+        </select>
+        <p class="guidetext">How may we help you?</p>
+        <textarea class="inputboxbig" id="message" placeholder="Help us understand how we can help you" rows="5"></textarea>
+        <br><br><br>
+        <button type="submit" class="submitbutton">Submit</button>
+        </form>  
+    </div>
+
+    <div class="footerbox">
+        <p class="footertext">VKellogg's</p>
+        <p class="copyright">©️ VKellogg 2024</p>
+    </div>
+
+    <label id="errorlbl"></label>
+
+    <script src="../js/contactusscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headerbox{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+}
+
+.headerbox .headertext{
+    color:#FF0000;
+    position: fixed;
+    font-family: 'Jim Nightshade';
+    font-size: 45px;
+    top: 15px;
+    padding-left: 25px;
+    margin-top: 0px;
+    text-shadow: 1px 0px black;
+    text-decoration: none;
+}
+
+.headerbox .headerhomelink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 525px;
+    position: fixed;
+}
+
+.headerbox .headerproductslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 410px;
+    position: fixed;
+}
+
+.headerbox .headerrecipeslink{
+    color: black;    
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 300px;
+    position: fixed;
+}
+
+.headerbox .headeraboutuslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 175px;
+    position: fixed;
+}
+
+.headerbox .headercontactuslink{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 40px;
+    right: 40px;
+    position: fixed;
+}
+
+.headerback{
+    height: 100px;
+    position: relative;
+}
+
+.contactustextbox{
+    color:#FF0000;
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.box{
+    width: 100%;
+    position: relative;
+    height: 1050px;
+    left: 0px;
+    right: 0px;
+    background-color: #FF2E00;
+    justify-content: center;
+    padding-top: 1px;
+}
+
+.guidetext{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    margin-top: 30px;
+    left: 125px;
+    width: 80%;
+    height: auto;
+}
+
+.inputbox{
+    font-size: 30px;
+    position: relative;
+    margin-top: 10px;
+    left: 100px;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Kaisei Opti';
+    border-color: white;
+}
+
+.dropdownlist{
+    font-size: 30px;
+    position: relative;
+    margin-top: 10px;
+    left: 100px;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-left: 20px;
+    font-family: 'Kaisei Opti';
+    border-color: white;
+}
+
+.inputboxbig{
+    font-size: 30px;
+    position: relative;
+    margin-top: 10px;
+    left: 100px;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Kaisei Opti';
+    border-color: white;
+    resize: none;
+}
+
+.submitbutton{
+    font-size: 30px;
+    position: relative;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Kaisei Opti';
+    border-color: white;
+    cursor: pointer;
+    color: #FF0000;
+    left: 550px;
+}
+
+.footerbox{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    top: 1230px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    margin-bottom: 0px;
+}
+
+.footerbox .footertext{
+    color:#FF0000;
+    position: absolute;
+    font-family: 'Jim Nightshade';
+    font-size: 25px;
+    top: 8px;
+    padding-left: 30px;
+    margin-top: 0px;
+    text-shadow: 1px 0px black;
+}
+
+.footerbox .copyright{
+    position: absolute;
+    font-size: 15px;
+    top: 20px;
+    right: 35px;
+}
+
+#errorlbl{
+    position: absolute;
+    font-size: 30px;
+    top: 1150px;
+    left: 58%;
+    color: white;
+}
